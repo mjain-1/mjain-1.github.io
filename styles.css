@@ -3,25 +3,17 @@ body {
 }
 
 
-#abstand {
-    float: left;
-    height: 100px;
-    width: 100%;
-}
-
 #content_container{
-    position: fixed;
     top: 80px;
     width: 1030px;
     margin: 0 50% 0 50%;
-    left: -515px;
+    bottom: 32px;
 }
 
 #container_navibar{
-    position: fixed;
     top: 80px;
     width: 1030px;
     margin: 0 50% 0 50%;
-    left: -515px;
+    bottom: 32px;
 }
 
