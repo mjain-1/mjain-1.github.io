@@ -46,7 +46,7 @@ ul.project > li.title-bar img {
 }
 
 ul.project > li.title-bar > ul.text {
-    display: block;
+    display: inline;
     float: right;
 }
 
