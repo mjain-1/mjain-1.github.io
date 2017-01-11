@@ -51,7 +51,7 @@ ul.project > li.title-bar img {
 
 ul.project > li.title-bar > ul.text {
     display: inline-block;
-    width: 960px;
+    width: 700px;
     height: 300px;
     float: right;
 }
