@@ -46,8 +46,6 @@ ul {
 
 ul.project > li.title-bar img {
     display: inline-block;
-    width: 960px;
-    height: 300px;
     float: left;
 }
 
