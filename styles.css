@@ -31,7 +31,7 @@ a {
     right: 50%; }
 
 .container {
-  margin: 0 auto;
+  margin: 0 20px;
   max-width: 960px;
   padding: 32px 16px;
   width: 100%; }
