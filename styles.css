@@ -38,6 +38,18 @@ hr {
   border: none;
   height: 1px; }
 
+ul {
+    list-style-type: none; }
+
+ul.project > li.title-bar img {
+    float: left;
+}
+
+ul.project > li.title-bar > ul.text {
+    display: block;
+    float: right;
+}
+
 .container {
   margin: 0 auto;
   max-width: 960px;
@@ -86,3 +98,4 @@ hr {
 
 .mr-2 {
   margin-right: 16px; }
+
