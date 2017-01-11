@@ -12,7 +12,7 @@ h4, h5 {
     margin: 16px 0; }
 
 p {
-    font-size: 10px; }
+    font-size: 12px; }
 
 a {
   color: #222;
@@ -45,11 +45,12 @@ ul {
     list-style-type: none; }
 
 ul.project > li.title-bar img {
+    display: inline-block;
     float: left;
 }
 
 ul.project > li.title-bar > ul.text {
-    display: inline;
+    display: inline-block;
     float: right;
 }
 
