@@ -30,6 +30,11 @@ a {
     left: 50%;
     right: 50%; }
 
+hr {
+  background-color: #000;
+  border: none;
+  height: 1px; }
+
 .container {
   margin: 0 auto;
   max-width: 960px;
