@@ -52,21 +52,18 @@ ul {
     list-style-type: none; }
 
 ul.project > li.title-bar > img {
-    float: left;
-}
+    float: left; }
 
 ul.project > li.title-bar > ul.text {
     width: 550px;
     height: 300px;
-    float: right;
-}
+    float: right; }
 
 li {
-    margin: 0 0 0.2em 0; }
+    margin-top: 10px; }
 
 li.description {
-     border-bottom: 1px;
-}
+     border-bottom: 1px solid; }
 
 .container {
   margin: 0 auto;
