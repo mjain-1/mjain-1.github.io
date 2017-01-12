@@ -62,6 +62,9 @@ ul.project > li.title-bar > ul.text {
     float: right;
 }
 
+li {
+    margin: 0 0 0.2em 0; }
+
 li.description {
      border-bottom: 1px;
 }
