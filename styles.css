@@ -48,6 +48,9 @@ hr.main {
 ul {
     list-style-type: none; }
 
+li {
+    margin: 10px 0; } 
+
 li.title-bar {
     margin-top: 25px; }
 
