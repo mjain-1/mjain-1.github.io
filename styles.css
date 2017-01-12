@@ -19,7 +19,8 @@ p.heading {
 
 p.about {
     font-size: 16px;
-    line-height: 20px; }
+    line-height: 20px; 
+    display: block; }
 
 a {
   color: #222;
