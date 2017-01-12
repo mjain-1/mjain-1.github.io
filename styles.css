@@ -51,11 +51,9 @@ hr.main {
 ul {
     list-style-type: none; }
 
-li {
-    margin-bottom: 50px; }
-
 li.title-bar {
-     border-bottom: 1px solid; }
+     border-bottom: 1px solid;
+     padding-bottom: 50px; }
 
 .container {
   margin: 0 auto;
