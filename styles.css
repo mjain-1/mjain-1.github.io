@@ -51,14 +51,6 @@ hr.main {
 ul {
     list-style-type: none; }
 
-ul.project > li.title-bar > img {
-    float: left; }
-
-ul.project > li.title-bar > ul.text {
-    width: 550px;
-    height: 300px;
-    float: right; }
-
 li {
     margin-top: 10px; }
 
