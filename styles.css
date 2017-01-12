@@ -58,11 +58,10 @@ li.title-bar {
      border-bottom: 1px solid;
      padding-bottom: 25px; }
 
-li.title-bar > ul.text {
+ul.text {
     width: 550px;
     height: 300px;
-    float: right; 
-    padding-bottom: 25px; }
+    float: right; }
 
 .container {
   margin: 0 auto;
