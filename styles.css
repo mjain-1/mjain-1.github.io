@@ -52,7 +52,6 @@ ul {
     list-style-type: none; }
 
 ul.project > li.title-bar img {
-    display: inline-block;
     float: left;
 }
 
