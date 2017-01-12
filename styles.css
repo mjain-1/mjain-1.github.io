@@ -51,7 +51,7 @@ hr.main {
 ul {
     list-style-type: none; }
 
-ul.project > li.title-bar img {
+ul.project > li.title-bar > img {
     float: left;
 }
 
