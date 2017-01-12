@@ -52,8 +52,11 @@ ul {
     list-style-type: none; }
 
 li.title-bar {
+    margin-top: 25px; }
+
+li.title-bar {
      border-bottom: 1px solid;
-     padding-bottom: 50px; }
+     padding-bottom: 25px; }
 
 .container {
   margin: 0 auto;
