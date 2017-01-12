@@ -82,6 +82,13 @@ ul.text {
     .container {
       padding: 128px 32px; } }
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
 .animated {
   animation-duration: 0.4s;
   animation-fill-mode: both; }
