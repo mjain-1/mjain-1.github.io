@@ -61,7 +61,8 @@ li.descript {
 ul.text {
     width: 550px;
     height: 250px; 
-    float: right; }
+    float: right; 
+    vertical-align: top; }
 
 .container {
   margin: 0 auto;
