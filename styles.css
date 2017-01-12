@@ -51,7 +51,7 @@ ul {
 
 li {
     margin: 10px 0; 
-    font-style: bold; } 
+    font-weight: bold; } 
 
 li.title-bar {
     margin-top: 25px; }
@@ -61,6 +61,7 @@ li.title-bar {
      padding-bottom: 25px; }
 
 li.descript {
+     font-weight: normal;
      margin-top: 10px; }
 
 ul.text {
