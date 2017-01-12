@@ -12,7 +12,8 @@ h4, h5 {
     margin: 16px 0; }
 
 p {
-    font-size: 12px; }
+    font-size: 12px; 
+    display: inline; }
 
 p.heading {
     font-size: 14px; 
@@ -59,8 +60,7 @@ li.title-bar {
 
 ul.text {
     width: 550px;
-    height: 300px;
-    float: right; }
+    height: 300px;}
 
 .container {
   margin: 0 auto;
