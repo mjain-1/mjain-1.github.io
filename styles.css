@@ -55,6 +55,9 @@ li.title-bar {
      border-bottom: 1px solid;
      padding-bottom: 25px; }
 
+li.descript {
+     padding-bottom: 25px; }
+
 ul.text {
     width: 550px;
     height: 250px; 
