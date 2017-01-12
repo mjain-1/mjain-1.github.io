@@ -101,8 +101,20 @@ ul.text {
 .animated-fade-in {
   animation-name: fade-in; }
 
+.column-12 {
+  width: 100%; }
+
+.column-lg-5 {
+    width: 41.666%; }
+
+.column-md-6 {
+    width: 50%; }
+
 .fit-width {
   width: 100%; }
+
+.float-left-md {
+    float: left; }
 
 .m-0 {
   margin: 0; }
@@ -116,6 +128,9 @@ ul.text {
 .mb-lg-5 {
     margin-bottom: 128px; }
 
+.mb-md-0 {
+    margin-bottom: 0; }
+
 .mb-md-4 {
     margin-bottom: 64px; }
 
@@ -127,4 +142,7 @@ ul.text {
 
 .mt-0 {
   margin-top: 0; }
+
+.pr-md-3 {
+    padding-right: 32px; }
 
