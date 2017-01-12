@@ -62,7 +62,7 @@ li.title-bar > ul.text {
     width: 550px;
     height: 300px;
     float: right; 
-    vertical-align: middle; }
+    padding-bottom: 25px; }
 
 .container {
   margin: 0 auto;
