@@ -43,8 +43,13 @@ a {
 
 hr {
   background-color: #000;
-  border: none;
-  height: 1px; }
+  border: none; }
+
+hr.main {
+    height: 4px; }
+
+hr.sub {
+    height: 1px; }
 
 ul {
     list-style-type: none; }
