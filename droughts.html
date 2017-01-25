@@ -191,14 +191,14 @@
 // load data
 
     d3.queue()
-        .defer(d3.json, "{{url_for('static',filename="us.json")}}")
-        .defer(d3.csv, "{{url_for('static',filename="drought_final2.csv")}}")
-        .defer(d3.csv, "{{url_for('static',filename="noaa_final.csv")}}", function(d) { 
+        .defer(d3.json, "../static/us.json")
+        .defer(d3.csv, "../static/drought_final2.csv")
+        .defer(d3.csv, "../static/noaa_final.csv", function(d) { 
                 if (d.RELATED_EVENT == "Drought" && parseDate(d.DATE).getFullYear() == 1996 ){
                     noaa.set(+d.id, +d.NUM_EVENTS);
                     }; 
                 })
-        .defer(d3.csv, "{{url_for('static',filename="drought_final2.csv")}}", function(d) { 
+        .defer(d3.csv, "../static/drought_final2.csv", function(d) { 
                     source_outline.set(+d.id, d.Source);
                 })
         .await(ready);
@@ -606,8 +606,8 @@ function ready(error, us, drought_final2) {
 function updateMap(year, current_source) {
 
     d3.queue()
-        .defer(d3.json, "{{url_for('static',filename="us.json")}}")
-        .defer(d3.csv, "{{url_for('static',filename="noaa_final.csv")}}", function(d) { 
+        .defer(d3.json, "../static/us.json")}}")
+        .defer(d3.csv, "../static/noaa_final.csv", function(d) { 
                 if (d.RELATED_EVENT == "Drought" && parseDate(d.DATE).getFullYear() == Number(year)) {
                     noaa.set(+d.id, +d.NUM_EVENTS);
                     }; 
@@ -649,8 +649,8 @@ function updateMap(year, current_source) {
 function resetMap() {
 
     d3.queue()
-        .defer(d3.json, "{{url_for('static',filename="us.json")}}")
-        .defer(d3.csv, "{{url_for('static',filename="noaa_final.csv")}}", function(d) { 
+        .defer(d3.json, "../static/us.json")
+        .defer(d3.csv, "../static/noaa_final.csv", function(d) { 
                 if (d.RELATED_EVENT == "Drought" && parseDate(d.DATE).getFullYear() == Number(year)) {
                     noaa.set(+d.id, +d.NUM_EVENTS);
                     }; 
