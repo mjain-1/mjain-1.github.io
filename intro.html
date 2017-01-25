@@ -447,7 +447,15 @@
                 .attr("x", (width / 2) - 326.5)  
                 .attr("y", 0 - (margin.top / 2) + 60)
                 .attr("font-size", "20px")
-                .text("(Click on the event label to learn more!)");
+                .text("(Click on Droughts to learn more!");
+        
+            svg.append("text")
+                .attr("class", "subtitle")
+                .transition() 
+                .attr("x", (width / 2) - 326.5)  
+                .attr("y", 0 - (margin.top / 2) + 60)
+                .attr("font-size", "20px")
+                .text("Other event types coming soon...)");
 
             d3.select("#warming_line").remove()
             d3.select("#warming_label").remove()
