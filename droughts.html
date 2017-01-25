@@ -606,7 +606,7 @@ function ready(error, us, drought_final2) {
 function updateMap(year, current_source) {
 
     d3.queue()
-        .defer(d3.json, "../static/us.json")}}")
+        .defer(d3.json, "../static/us.json")
         .defer(d3.csv, "../static/noaa_final.csv", function(d) { 
                 if (d.RELATED_EVENT == "Drought" && parseDate(d.DATE).getFullYear() == Number(year)) {
                     noaa.set(+d.id, +d.NUM_EVENTS);
